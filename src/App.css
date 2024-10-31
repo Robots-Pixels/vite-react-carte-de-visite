@@ -1,0 +1,50 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  background: #61dafbaa;
+}
+
+.profile {
+  height: 7em;
+  aspect-ratio: 1/1;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 50%;
+}
+.profile:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.profile.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.contactLink{
+  width:40px;
+  margin: 0px 30px;
+}
